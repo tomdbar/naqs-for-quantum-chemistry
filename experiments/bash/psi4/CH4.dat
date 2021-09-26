@@ -1,0 +1,53 @@
+
+molecule CH4 {
+	C 0 0 0
+	H 0.5541 0.7996 0.4965
+	H 0.6833 -0.8134 -0.2536
+	H -0.7782 -0.3735 0.6692
+	H -0.4593 0.3874 -0.9121
+    0 1
+    symmetry c1
+}
+set basis       sto-3g
+set reference   rhf
+
+set globals {
+    basis sto-3g
+    freeze_core false
+    fail_on_maxiter true
+    df_scf_guess false
+    opdm true
+    tpdm true
+    soscf false
+    scf_type pk
+    maxiter 1e6
+    num_amps_print 1e6
+    r_convergence 1e-6
+    d_convergence 1e-6
+    e_convergence 1e-6
+    ints_tolerance EQUALITY_TOLERANCE
+    damping_percentage 0
+}
+
+hf = energy("scf")
+
+# cisd = energy("cisd")
+ccsd = energy("ccsd")
+ccsdt = energy("ccsd(t)")
+fci = energy("fci")
+
+print("\nResults for CH4.dat\n")
+
+print("""Geometry : 
+	C 0 0 0
+	H 0.5541 0.7996 0.4965
+	H 0.6833 -0.8134 -0.2536
+	H -0.7782 -0.3735 0.6692
+	H -0.4593 0.3874 -0.9121\n""")
+
+print("HF : %10.6f" % hf)
+# print("CISD : %10.6f" % cisd)
+print("CCSD : %10.6f" % ccsd)
+print("CCSD(T) : %10.6f" % ccsdt)
+print("FCI : %10.6f" % fci)
+    
