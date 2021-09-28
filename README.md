@@ -1,5 +1,5 @@
 # naqs-for-quantum-chemistry
-[![Generic badge](https://img.shields.io/badge/arXiv-XXXX.XXXX-<COLOR>.svg)](https://arxiv.org/abs/XXXX.XXXX)
+[![Generic badge](https://img.shields.io/badge/arXiv-2109.12606-<COLOR>.svg)](https://arxiv.org/abs/2109.12606)
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](./LICENSE)
 
 ---
@@ -87,9 +87,9 @@ The underlying neural networks require [PyTorch](https://pytorch.org/).  The mol
 
 If you find this project or the associated paper useful, it can be cited as below.
 
-    @article{barrett2020autoregressive,
+    @article{barrett2021autoregressive,
       title={Autoregressive neural-network wavefunctions for ab initio quantum chemistry},
       author={Barrett, Thomas D and Malyshev, Aleksei and Lvovsky, AI},
-      journal={arXiv preprint arXiv:XXXX.XXXX},
-      year={2020}
+      journal={arXiv preprint arXiv:2109.12606},
+      year={2021}
     }
