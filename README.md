@@ -10,7 +10,7 @@ This repository contains the codebase developed for the paper [Autoregressive ne
 
 | <img src="imgs/network.png" width="540" /> | <img src="imgs/N2_energy_surface.png" width="270" /> |
 |:---:|:---:|
-| (a) Architecture of a neural autoregerssive quantum state (NAQS) | (b) Energy surface of N<sub>2</sub> |
+| (a) Architecture of a neural autoregressive quantum state (NAQS) | (b) Energy surface of N<sub>2</sub> |
 
 #### TL;DR
 
