@@ -1,10 +1,10 @@
 # naqs-for-quantum-chemistry
-[![Generic badge](https://img.shields.io/badge/arXiv-XXXX.XXXX-<COLOR>.svg)](https://arxiv.org/abs/XXXX.XXXX)
+[![Generic badge](https://img.shields.io/badge/arXiv-2109.12606-<COLOR>.svg)](https://arxiv.org/abs/2109.12606)
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](./LICENSE)
 
 ---
 
-This repository contains the codebase developed for the paper [Autoregressive neural-network wavefunctions for *ab initio* quantum chemistry](https://arxiv.org/abs/XXXX.XXXX).
+This repository contains the codebase developed for the paper [Autoregressive neural-network wavefunctions for *ab initio* quantum chemistry](https://arxiv.org/abs/2109.12606).
 
 ---
 
@@ -16,9 +16,9 @@ This repository contains the codebase developed for the paper [Autoregressive ne
 
 If you don't care for now, and you just want to see it running, here are two links to notebooks that will set-up and run on Colab.  Just note that Colab will not have enough memory to run experiments on the largest molecules we considered.
 
-- [run_naqs.ipynb](notebooks/run_naqs.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tomdbar/naqs/blob/naqs-for-quantum-chemistry/notebooks/run_naqs.ipynb): Run individual experiments or batches of experiments, including those to recreate published results.
+- [run_naqs.ipynb](notebooks/run_naqs.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tomdbar/naqs-for-quantum-chemistry/blob/main/notebooks/run_naqs.ipynb): Run individual experiments or batches of experiments, including those to recreate published results.
 
-- [generate_molecular_data_and_baselines.ipynb](notebooks/generate_molecular_data_and_baselines.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tomdbar/naqs/blob/naqs-for-quantum-chemistry/notebooks/generate_molecular_data_and_baselines.ipynb):
+- [generate_molecular_data_and_baselines.ipynb](notebooks/generate_molecular_data_and_baselines.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tomdbar/naqs-for-quantum-chemistry/blob/main/notebooks/generate_molecular_data_and_baselines.ipynb):
     1. Create the ``[molecule].hdf5`` and ``[molecule]_qubit_hamiltonian.pkl`` files required (these are provided for molecules used in the paper in the [molecules](molecules) directory.)
     2. Solve these molecules using various canconical QC methods using Psi4.
 
@@ -87,9 +87,9 @@ The underlying neural networks require [PyTorch](https://pytorch.org/).  The mol
 
 If you find this project or the associated paper useful, it can be cited as below.
 
-    @article{barrett2020autoregressive,
+    @article{barrett2021autoregressive,
       title={Autoregressive neural-network wavefunctions for ab initio quantum chemistry},
       author={Barrett, Thomas D and Malyshev, Aleksei and Lvovsky, AI},
-      journal={arXiv preprint arXiv:XXXX.XXXX},
-      year={2020}
+      journal={arXiv preprint arXiv:2109.12606},
+      year={2021}
     }
