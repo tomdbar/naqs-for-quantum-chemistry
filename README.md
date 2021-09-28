@@ -14,6 +14,8 @@ This repository contains the codebase developed for the paper [Autoregressive ne
 
 #### TL;DR
 
+*These notebooks are currently not working due to updates to the underlying OpenFermion and Psi4 packages - I'll fix them!*
+
 If you don't care for now, and you just want to see it running, here are two links to notebooks that will set-up and run on Colab.  Just note that Colab will not have enough memory to run experiments on the largest molecules we considered.
 
 - [run_naqs.ipynb](notebooks/run_naqs.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tomdbar/naqs-for-quantum-chemistry/blob/main/notebooks/run_naqs.ipynb): Run individual experiments or batches of experiments, including those to recreate published results.
