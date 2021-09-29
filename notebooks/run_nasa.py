@@ -4,7 +4,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "This notebook is for running NAQS on molecules and reproduction of experimental results/baslines.  It is split into two sections, ***which will set up different environments and so will require the runtime resetting if you want to switch***.\n",
+    "This notebook is for running NAS on molecules and reproduction of experimental results/baslines.  It is split into two sections, ***which will set up different environments and so will require the runtime resetting if you want to switch***.\n",
     "\n",
     "First, however, we'll just pull down and step into the repo itself."
    ]
@@ -27,7 +27,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "# 1. Solve molecules using NAQS\n",
+    "# 1. Solve molecules using NASA\n",
     "\n",
     "To run this section, we first install OpenFermion and build the necessary cython scripts."
    ]
@@ -40,7 +40,7 @@
    },
    "outputs": [],
    "source": [
-    "!chmod -R u+x experiments/bash/naqs\n",
+    "!chmod -R u+x experiments/bash/nasa\n",
     "\n",
     "try:\n",
     "    import openfermion as of\n",
@@ -84,7 +84,7 @@
    },
    "outputs": [],
    "source": [
-    "!python -u -m experiments.run -o \"data/LiH\" -m \"molecules/LiH\" -single_phase -n1 -n_layer 1 -n_hid 16 -n_layer_phase 1 -n_hid_phase 32 -lr 0.001 -s 1 -n_train 3000 -output_freq 25 -save_freq -1"
+    "!python -u -m experiments.run -o \"data/LiH\" -m \"molecules/LiH\" -single_phase -n1 -n_layer 1 -n_hid 15 -n_layer_phase 1 -n_hid_phase 86 -lr 0.001 -s 1 -n_train 3000 -output_freq 64 -save_freq -1"
    ]
   },
   {
@@ -169,9 +169,13 @@
    "name": "python",
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
-   "version": "3.6.2"
+   "version": "3.7.8"
   }
  },
- "nbformat": 4,
- "nbformat_minor": 2
+ "nbformat": 5,
+ "nbformat_minor": 3
 }
+
+export to nasa
+export to Mu
+export to Union
