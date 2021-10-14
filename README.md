@@ -14,7 +14,7 @@ This repository contains the codebase developed for the paper [Autoregressive ne
 
 #### TL;DR
 
-*These notebooks are currently not working due to updates to the underlying OpenFermion and Psi4 packages - I'll fix them!*
+*Certain parts of the notebooks relating to generating molecular data are currently not working due to updates to the underlying OpenFermion and Psi4 packages (I'll fix it!) - however the experimental results of NAQS can still be reproduced as we also provide pre-generated data in this repository.*
 
 If you don't care for now, and you just want to see it running, here are two links to notebooks that will set-up and run on Colab.  Just note that Colab will not have enough memory to run experiments on the largest molecules we considered.
 
