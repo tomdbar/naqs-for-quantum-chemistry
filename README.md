@@ -1,6 +1,6 @@
 # naqs-for-quantum-chemistry
 [![Generic badge](https://img.shields.io/badge/arXiv-2109.12606-<COLOR>.svg)](https://arxiv.org/abs/2109.12606)
-[![DOI](https://sandbox.zenodo.org/badge/410559097.svg)](https://sandbox.zenodo.org/badge/latestdoi/410559097)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5973755.svg)](https://doi.org/10.5281/zenodo.5973755)
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](./LICENSE)
 
 ---
