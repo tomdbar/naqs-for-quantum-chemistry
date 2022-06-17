@@ -88,9 +88,14 @@ The underlying neural networks require [PyTorch](https://pytorch.org/).  The mol
 
 If you find this project or the associated paper useful, it can be cited as below.
 
-    @article{barrett2021autoregressive,
-      title={Autoregressive neural-network wavefunctions for ab initio quantum chemistry},
-      author={Barrett, Thomas D and Malyshev, Aleksei and Lvovsky, AI},
-      journal={arXiv preprint arXiv:2109.12606},
-      year={2021}
-    }
+```
+@article{barrett2022autoregressive,
+  title={Autoregressive neural-network wavefunctions for ab initio quantum chemistry},
+  author={Barrett, Thomas D and Malyshev, Aleksei and Lvovsky, AI},
+  journal={Nature Machine Intelligence},
+  volume={4},
+  number={4},
+  pages={351--358},
+  year={2022},
+  publisher={Nature Publishing Group}}
+```
